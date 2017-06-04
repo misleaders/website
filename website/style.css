@@ -1,0 +1,267 @@
+.container-fluid {width: 100%; height: 100px; margin: 0;}
+
+#navbar {border-style: none; background-color: hsla(190, 100%, 100%, 0.7); width: 100%; height: 500px; margin: 0;}
+
+
+.navbar-default{ background-color: white; position: fixed; width: 100%; height: 170px}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: hsl(190, 38%, 38%);
+}
+
+.navbar-brand {
+    float: left;
+    height: 170px;
+    padding: 15px 15px;
+    
+}
+
+
+.navbar-brand  a  img { width: 100%;}
+
+ul { list-style-type: none;
+    padding: 0;
+    }
+
+.nav-tabs { border-bottom-style: none;
+            }
+
+
+.nav-tabs > li {
+    text-align: center;
+    width: 140px;
+    float: left;
+}
+
+@media(max-width: 751px) {#header-social ul {visibility:hidden;}}
+    
+    
+#header-social{ float:right; margin-top: 30px; margin-right: 30px;}
+
+.sns-icon {display: inline-block; margin-left:8px; }
+
+.header-content{ display:block; }
+
+
+
+.menu{float: right;
+    
+      margin-top: 80px;
+      margin-right: 70px;
+    
+      padding: 10px;
+   
+      }
+
+.menu-name{ 
+    
+            display: inline-block;
+    
+            font-size: 18px;
+    
+            padding-left: 10px; padding-right: 10px;
+            
+}
+.menu-name:not(:last-child){ border-right: 1px solid ; }
+
+.nav-tabs>li>a {font-family: 'Raleway', sans-serif; 
+                color:  hsl(190, 38%, 38%); }
+
+@media(max-width:480px){.nav-tabs>li { text-align: center;}}
+
+
+/* header ここまで*/
+
+.container {padding: 10px}
+
+
+
+h2 {font-family: 'Open Sans', sans-serif; 
+    padding: 0 55px; 
+    text-align: center; 
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;}
+
+h2 span {
+    display: inline-block;
+    padding: 0 0.5em;
+    position: relative; 
+    margin: 0px
+}
+
+h2 span:before, h2 span:after{
+    border-top: 1px solid;
+    content: "";
+    position:absolute; 
+    top: 50%;
+    width: 99em;}
+
+h2 span:before{
+    right: 100%;
+}
+h2 span:after{
+    left: 100%;
+}
+
+h3 {font-family: 'Open Sans', sans-serif; 
+    font-weight: 100; 
+    text-align: center; 
+    margin: 0 55px 3px;
+    font-size: 18px;
+    color: darkgray;
+  }
+
+.top img { margin-top: 200px; 
+           margin-bottom: 50px;
+           width: 100%; }
+
+p { padding: 15px;}
+
+.about{margin-bottom: 50px}
+
+
+.news-pic{ display: block;
+            text-align: center;
+            padding: 0 ;
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+            margin-bottom: 15px;
+            position: relative;}
+
+
+.news-content {padding: 0px 20px 0px; 
+                margin-top: 5px;}
+
+.date{ font-size: 20px;
+       background-color: white;
+       position: absolute;
+        padding: 0 10px 0;
+       left: 0px;
+}
+
+
+/* footer ここから*/
+h4 {padding: 10px; text-align: center;}
+
+footer {background-color: whitesmoke;           color: dimgray;
+       
+}
+
+#site-map {text-align: center; }
+
+.sitemap{display: inline-block;  
+         vertical-align: top;　
+         border-left: 1px solid ;
+         border-right: 1px solid ;
+         padding: 0 20px 0; 
+        margin: 5px 0 5px;
+         }        
+
+.sitemap+.sitemap { border-left: 0;
+                    border-right: 1px solid ;
+}
+
+.sitemap:last-child {border-right: none; }
+
+.sitemap a {color: dimgray}
+
+
+#footer-about{ position: relative;}
+
+#footer-about-s {position: absolute;
+                 margin-top:5px;
+                 left: 0;} 
+
+#footer-projects{ position: relative;}
+
+#footer-projects-s {position: absolute;
+                    left: 34% ;
+                    margin-top:5px; } 
+
+#footer-social{ text-align: center;
+                padding-right: 45px}
+#footer-social li:first-child{border-right: 1px solid;
+                              padding: 0  10px;}
+
+
+.name {text-align: center; padding: 0 }
+
+/* その他ページ */
+
+.eyechatch-about {background-image: url("about.jpg") ; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            background-position: 50% 80%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
+.eyechatch-greeting {background-image:url(logomark.png); 
+            background-repeat: no-repeat;
+            max-width: 100%;
+            height: 300px;
+            background-position: 50% 80%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
+.eyechatch-project {background-image:url(katudou.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            background-position: 10% 50%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
+.eyechatch-team {background-image: url("team.jpg") ; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            background-position: 50% 30%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
+.eyechatch-company {background-image:url(kyousan.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            background-position: 50% 50%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
+
+
+.page-title{font-size:18px;
+            text-align: center;
+            color: dimgray;
+            background-color: hsla(190, 100%, 100%, 0.7);
+            width: 100%;
+            position: absolute;
+            top: 40%;
+            left: 0;}
+
+.main { margin: 20px 0px 30px}
+
+.bold {font-weight: 600;
+       }
+
+.greeting img{ border-radius: 10px;
+                margin: 5px 10px 0}
+
+.pj {margin: 10px}
+
+.team {margin: 10px 15px 30px;
+       display: inline-block;
+    　　padding: 0 auto;}
+
+
+
