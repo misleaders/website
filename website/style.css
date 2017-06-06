@@ -91,7 +91,7 @@ h2 span {
     display: inline-block;
     padding: 0 0.5em;
     position: relative; 
-    margin: 0px
+    margin: 10px
 }
 
 h2 span:before, h2 span:after{
@@ -111,7 +111,7 @@ h2 span:after{
 h3 {font-family: 'Open Sans', sans-serif; 
     font-weight: 100; 
     text-align: center; 
-    margin: 0 55px 3px;
+    margin: 0 55px 10px;
     font-size: 18px;
     color: darkgray;
   }
