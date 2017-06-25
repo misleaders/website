@@ -24,7 +24,7 @@
                 background-color: hsl(190, 38%, 38%);
                 }
 
-.navbar-brand { background: url("logo.png") no-repeat left center;
+.navbar-brand { /*background: url("logo.png") no-repeat left center;*/
                 background-size: auto;
                 width: 300px;
                 height: 150px}
