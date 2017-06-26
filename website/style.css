@@ -213,11 +213,22 @@ footer {background-color: whitesmoke;           color: dimgray;
             position: relative;
             }
 
-.eyechatch-greeting {background-image:url(logomark.png); 
+.eyechatch-greeting {background-image:url(greeting.jpg); 
             background-repeat: no-repeat;
+            background-size: cover;
             max-width: 100%;
             height: 300px;
-            background-position: 50% 80%; 
+            background-position: 50% 50%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
+.eyechatch-mission {background-image:url(mission.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 100%;
+            height: 300px;
+            background-position: 50% 50%; 
             margin-bottom: 30px;
             position: relative;
             }
