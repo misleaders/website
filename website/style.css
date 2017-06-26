@@ -251,6 +251,15 @@ footer {background-color: whitesmoke;           color: dimgray;
             position: relative;
             }
 
+.eyechatch-recruiting {background-image:url(kickoff.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            background-position: 50% 80%; 
+            margin-bottom: 30px;
+            position: relative;
+            }
+
 .eyechatch-company {background-image:url(kyousan.jpg); 
             background-repeat: no-repeat;
             background-size: cover;
