@@ -282,7 +282,8 @@ footer {background-color: whitesmoke;           color: dimgray;
             width: 100%;
             position: absolute;
             top: 40%;
-            left: 0;}
+            left: 0;
+            margin: 0;}
 
 @media(min-width: 751px){.main{margin-left: 50px; margin-right: 50px;}}
 
