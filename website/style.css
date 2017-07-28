@@ -1,4 +1,4 @@
-@media(min-width: 751px){p {margin-left: 15%; margin-right: 15%; line-height: 2em}}
+@media(min-width: 751px){p {margin-left: 15%; margin-right: 15%; line-height: 2em} }
 
 @media(max-width: 751px) {p {margin-left: 0; margin-right: 0}}
 
@@ -154,6 +154,7 @@ p { padding: 15px;}
 
 .date{ font-size: 20px;
        background-color: white;
+       opacity: 0.9;
        position: absolute;
         padding: 0 10px 0;
        left: 0px;
@@ -287,7 +288,7 @@ footer {background-color: whitesmoke;           color: dimgray;
 
 @media(min-width: 751px){.main{margin-left: 15%; margin-right: 15%; line-height: 2em}}
 
-@media(max-width: 751px) {.main { margin: 20px 0px 30px}}
+@media(max-width: 751px) {.main{margin: 20px 0px 30px}}
 
 .bold {font-weight: 600;
        }
@@ -295,13 +296,14 @@ footer {background-color: whitesmoke;           color: dimgray;
 .greeting img{ border-radius: 10px;
                 margin: 5px 10px 0}
 
+
 @media(min-width: 751px){.pj {margin: 0 50px;}}
 
 @media(max-width: 751px) {.pj {margin: 0 ;}}
+
 
 .team {margin: 10px 15px 30px;
        display: inline-block;
     　　padding: 0 auto;}
 
 .team-pic:hover {opacity: 0.4;}
-
